@@ -1,0 +1,21 @@
+@import '../../../variables.module';
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: var(--z-index-header);
+}
+
+.wrapper {
+  height: 100%;
+  padding: #{$h_header}px 0 0 #{$h_sidebar}px;
+}
+
+#sidebar {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  height: 100%;
+  width: #{$h_sidebar}px;
+}

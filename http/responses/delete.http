@@ -1,0 +1,5 @@
+DELETE http://localhost:3000/api/responses/delete HTTP/1.1
+content-type: application/x-www-form-urlencoded
+Cookie: token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiZXhwIjoxNzQ4MjI3OTY1LCJpYXQiOjE3NDgxNDE1NjV9.ZN8i75LE6USIizJFwhnzf8ltac-TZ5eLKFwVXZJrxp4;
+
+id=1

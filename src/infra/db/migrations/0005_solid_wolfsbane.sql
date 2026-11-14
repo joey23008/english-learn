@@ -1,0 +1,1 @@
+ALTER TABLE "chapters" ALTER COLUMN "parrent_id" DROP NOT NULL;

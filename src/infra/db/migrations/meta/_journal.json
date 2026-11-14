@@ -1,0 +1,104 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1728893431535,
+      "tag": "0000_unknown_wallflower",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1730597936896,
+      "tag": "0001_cool_loki",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1731039245170,
+      "tag": "0002_special_millenium_guard",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1731764172700,
+      "tag": "0003_glorious_mother_askani",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1731765095761,
+      "tag": "0004_superb_eternity",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1731893073219,
+      "tag": "0005_solid_wolfsbane",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1731896209794,
+      "tag": "0006_chunky_veda",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1731898446917,
+      "tag": "0007_light_exodus",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1731898906809,
+      "tag": "0008_naive_talkback",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1731901349706,
+      "tag": "0009_faulty_unicorn",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1732177724258,
+      "tag": "0010_pale_franklin_storm",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1732178029593,
+      "tag": "0011_classy_diamondback",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1732179108976,
+      "tag": "0012_friendly_malcolm_colcord",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1732179800161,
+      "tag": "0013_petite_mole_man",
+      "breakpoints": true
+    }
+  ]
+}

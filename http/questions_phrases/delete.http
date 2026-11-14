@@ -1,0 +1,2 @@
+DELETE http://localhost:3000/api/questions_phrases/delete?lessonId=223&questionId=2018&qsPhrIds=76&phraseIds=77&deleteMasterData HTTP/1.1
+Cookie: token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2IiwiZXhwIjoxNzMyODAzODE3LCJpYXQiOjE3MzI3MTc0MTd9.uj5Q04owBEqlIt1PGsyx9cDxfYHGDQOCFZpj2145BfM;

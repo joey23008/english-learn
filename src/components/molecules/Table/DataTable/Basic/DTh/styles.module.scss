@@ -1,0 +1,23 @@
+.sort-enable {
+  .th-content-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .sort-icon-visibility {
+      visibility: hidden;
+    }
+    .sort-icon {
+      width: .875rem;
+      height: .875rem;
+    }
+  }
+  cursor : pointer;
+  &:hover {
+    .sort-icon-visibility {
+      visibility: visible;
+    }
+    .sort-active {
+      transform: scale(1, -1);
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.ordered-sentence-nav {
+  max-width: 50%;
+  min-width: 20%;
+  overflow: auto;
+  white-space: nowrap;
+  &:hover {
+    border-right: 2px solid rgb(224 224 224);
+  }
+}
+
+.editable-content {
+  padding: 0 2rem 15px;
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.utils {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

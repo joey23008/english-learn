@@ -1,0 +1,17 @@
+.text-area {
+  resize: none;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 6px 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dae2ed;
+  border-radius: 5px;
+  height: 34px;
+  &:hover {
+    border-color: #39f;
+  }
+  &:focus {
+    outline: 2px solid var(--color-secondary);
+  }
+}

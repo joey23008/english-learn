@@ -1,0 +1,6 @@
+## フレーズマスターTBLに新規追加、クエスチョンTBLに紐づけ
+PATCH http://localhost:3000/api/sentences/update HTTP/1.1
+content-type: application/x-www-form-urlencoded
+Cookie: token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2IiwiZXhwIjoxNzMzMjMzMjgzLCJpYXQiOjE3MzMxNDY4ODN9.DvKhuq_OnqcoA0ZHPLArGu0zjYcZKILuy20SsUFq76o;
+
+content=Knowledge%20is%20power2.&answer=%E7%9F%A5%E8%AD%98%E3%81%AF%E5%8A%9B%E3%81%A7%E3%81%82%E3%82%8B%E3%80%822&id=2251

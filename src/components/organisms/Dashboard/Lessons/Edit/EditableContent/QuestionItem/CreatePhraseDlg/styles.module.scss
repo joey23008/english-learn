@@ -1,0 +1,14 @@
+.match-list {
+  .match-list-item {
+    .col {
+      padding: 5px;
+      &:first-child {
+        flex: 0 0 auto;
+      }
+      &:nth-child(2),
+      &:nth-child(3) {
+        flex: 1;
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+POST http://localhost:3000/api/chapters/create HTTP/1.1
+content-type: application/x-www-form-urlencoded
+Cookie: token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIzIiwiZXhwIjoxNzMyNTAxNDU5LCJpYXQiOjE3MzI0MTUwNTl9.hgNQ4UBTdrWid_RLg3hZtbksHf__uI_cTIlPUdW3TXI;
+
+name=チャプター追加4&lessonId=329&parentId=60&number=6

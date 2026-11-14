@@ -1,0 +1,2 @@
+GET http://localhost:3000/api/lessons?page=1&sortField=name&sortDirection=DESC HTTP/1.1
+Cookie: token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2IiwiZXhwIjoxNzMxMTQxNDE1LCJpYXQiOjE3MzEwNTUwMTV9.uC1AmMKm6uHMkh_OOXbt9n1IRPXVuwcD3L9PddYGxL4;

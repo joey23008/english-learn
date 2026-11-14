@@ -1,0 +1,17 @@
+.disp-ans {
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.icon {
+  &.rotate-up {
+    transform: rotate(180deg);
+    transition: all .3s;
+  }
+  &.rotate-down {
+    transform: rotate(0deg);
+    transition: all .3s;
+  }
+}

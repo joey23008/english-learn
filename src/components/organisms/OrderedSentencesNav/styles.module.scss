@@ -1,0 +1,18 @@
+.navigation-list {
+  border-left: 3px solid #37352F;
+  padding: 3px 15px;
+  .label {
+    line-height: 1em;
+    padding: 7px 0;
+    cursor: pointer;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.0392156863);
+    }
+    &.disabled {
+      cursor: auto;
+      &:hover {
+        background-color: inherit;
+      }
+    }
+  }
+}

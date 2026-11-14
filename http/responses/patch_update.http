@@ -1,0 +1,6 @@
+## responseTBLを更新
+PATCH http://localhost:3000/api/responses/update HTTP/1.1
+content-type: application/x-www-form-urlencoded
+Cookie: token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2IiwiZXhwIjoxNzM0MDU2ODM4LCJpYXQiOjE3MzM5NzA0Mzh9.LPAs6BectqVhUiWu2zTewxnugfqNz5VXLcbrRYqpDns;
+
+content=hogehoge&lessonId=223&sentenceId=2005

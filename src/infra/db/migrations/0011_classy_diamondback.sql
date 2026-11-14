@@ -1,0 +1,1 @@
+ALTER TABLE "lesson_sentences" DROP CONSTRAINT "lesson_sentences_parrent_id_unique";

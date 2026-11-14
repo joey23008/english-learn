@@ -1,0 +1,8 @@
+$h_header: 64;
+$h_sidebar: 200;
+
+/* jsで使用するためにエクスポートする */
+:export {
+  h_header: $h_header;
+  h_sidebar: $h_sidebar;
+}

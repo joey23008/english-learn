@@ -1,0 +1,2 @@
+GET http://localhost:3000/api/users/get-count?email=testuser1@gmail.com HTTP/1.1
+Cookie: token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2IiwiZXhwIjoxNzM0NTk3MjcxLCJpYXQiOjE3MzQ1MTA4NzF9._tdrrRUnexCueJgkDqWVxJnw1Lqk20Bz2BR_jRWy5Bs;

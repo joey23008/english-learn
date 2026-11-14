@@ -1,0 +1,14 @@
+.table {
+  text-align: left;
+  min-width: 100%;
+  border: var(--box-border-card);
+  tr {
+    border-bottom: 1px solid rgb(224 224 224);
+    th {
+      font-weight: normal;
+    }
+    th, td {
+      padding: 10px;
+    }
+  }
+}

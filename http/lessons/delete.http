@@ -1,0 +1,2 @@
+DELETE http://localhost:3000/api/lessons/delete?ids=93&ids=94 HTTP/1.1
+Cookie: token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIzIiwiZXhwIjoxNzMxMjA0NDAwLCJpYXQiOjE3MzExMTgwMDB9.BmtSd8mqaLX7dogbk2wlt4SGAKu0CoffpTqBFaS0P8c;

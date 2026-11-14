@@ -1,0 +1,2 @@
+GET http://localhost:3000/api/lessons/318/ordered_sentences HTTP/1.1
+Cookie: token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIzIiwiZXhwIjoxNzMyMTYyMTIwLCJpYXQiOjE3MzIwNzU3MjB9.vXFe1F1BPtkkPbblAKYCXsEWYF8oFsPuVBgukDz2xGY; 

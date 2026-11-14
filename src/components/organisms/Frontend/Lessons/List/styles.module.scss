@@ -1,0 +1,15 @@
+.table-area {
+  box-shadow: var(--box-shadow-card);
+  width: 100%;
+  :global {
+    th {
+      // &:nth-child(1) {
+      //   min-width: calc(100% - 11rem);
+      //   max-width: calc(100% - 11rem);
+      // }
+      &:nth-child(2) {
+        width: 11rem;
+      }
+    }
+  }
+}

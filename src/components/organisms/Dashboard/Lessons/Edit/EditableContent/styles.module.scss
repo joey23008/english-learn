@@ -1,0 +1,22 @@
+.list-item {
+  margin-top: 30px;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 37px;
+  padding-left: 8px;
+  line-height: 1.4375em;
+  background-color: #e5f6fd;
+  border-radius: 4px;
+  .insert-ico {
+    &:hover {
+      background-color: inherit;
+    }
+  }
+}

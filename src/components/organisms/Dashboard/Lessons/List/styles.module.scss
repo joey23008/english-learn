@@ -1,0 +1,19 @@
+.table-check-box {
+  :global {
+    th {
+      &:first-child {
+        width: 1px;
+      }
+      &:nth-child(2) {
+        width: 3rem;
+      }
+      &:nth-child(3) {
+        min-width: 300px;
+      }
+      &:nth-child(4),
+      &:nth-child(5) {
+        width: 11rem;
+      }
+    }
+  }
+}

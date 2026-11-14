@@ -1,0 +1,2 @@
+GET http://localhost:3000/api/lessons/317 HTTP/1.1
+Cookie: token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIzIiwiZXhwIjoxNzMxOTAwMzA4LCJpYXQiOjE3MzE4MTM5MDh9.5zVUM0hi2vaAmW8CMCxQ8ZbRwafL8_MFy-YbFXmvAm8;

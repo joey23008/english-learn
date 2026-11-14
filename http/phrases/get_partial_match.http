@@ -1,0 +1,2 @@
+GET http://localhost:3000/api/phrases/partial_match?keyword=bite HTTP/1.1
+Cookie: token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIzIiwiZXhwIjoxNzMyOTM4NTQ2LCJpYXQiOjE3MzI4NTIxNDZ9.m_9JRnjrjkm_2Ne2ShoA0tttoSvfidFPfeWvsGIpTXU;

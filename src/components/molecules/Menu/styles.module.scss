@@ -1,0 +1,7 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--box-shadow-card);
+  border: var(--box-border-card);
+  background-color: #fff;
+}

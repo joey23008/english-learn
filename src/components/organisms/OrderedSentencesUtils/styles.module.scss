@@ -1,0 +1,15 @@
+.icon {
+  margin-right: 5px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.menu-item {
+  padding: 6px 16px;
+  .label {
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+  }
+}

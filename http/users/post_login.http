@@ -1,0 +1,4 @@
+POST http://localhost:3000/api/users/login HTTP/1.1
+content-type: application/x-www-form-urlencoded
+
+email=testuser1@gmail.com&password=testuser1

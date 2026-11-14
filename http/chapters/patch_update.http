@@ -1,0 +1,5 @@
+PATCH http://localhost:3000/api/chapters/update HTTP/1.1
+content-type: application/x-www-form-urlencoded
+Cookie: token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2IiwiZXhwIjoxNzMyNzE2MDc3LCJpYXQiOjE3MzI2Mjk2Nzd9.WQfk5g-pFIbORME0vkBagYWatGa2FiN_rrW1YN4M1IM;
+
+name=チャプター更新4&lessonId=223&chapterId=356

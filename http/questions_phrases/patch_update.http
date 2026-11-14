@@ -1,0 +1,6 @@
+## フレーズマスターTBLに新規追加、クエスチョンTBLに紐づけ
+PATCH http://localhost:3000/api/questions_phrases/update HTTP/1.1
+content-type: application/x-www-form-urlencoded
+Cookie: token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2IiwiZXhwIjoxNzMzMzIwODAxLCJpYXQiOjE3MzMyMzQ0MDF9.XVaP8jJbfZ6OX60aQKSruNq50TjuKn-kxt2dz7UVaQg;
+
+id=5638&phraseId=84&en=Knowledge%20is%20power2.&jp=知識は力です。2&priority=1

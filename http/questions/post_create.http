@@ -1,0 +1,5 @@
+POST http://localhost:3000/api/questions/create HTTP/1.1
+content-type: application/x-www-form-urlencoded
+Cookie: token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIzIiwiZXhwIjoxNzMyNjc0OTY3LCJpYXQiOjE3MzI1ODg1Njd9.SyezybcOLsWldt-MrB774UfOdYsUuT_Ocjq0ZB2R2xk;
+
+userNumber=クエスチョン追加1&lessonId=333&number=2

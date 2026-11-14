@@ -1,0 +1,9 @@
+.lessons {
+  :global {
+    .checkbox-table-area {
+      width: 100%;
+      overflow: auto;
+      box-shadow: var(--box-shadow-card);
+    }
+  }
+}

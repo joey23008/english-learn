@@ -1,0 +1,8 @@
+.dialog-title {
+  &:global(.MuiDialogTitle-root) {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    font-size: 1.125rem;
+  }
+}

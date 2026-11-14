@@ -1,0 +1,7 @@
+.pagination {
+  :global {
+    .MuiPagination-ul {
+      justify-content: end;
+    }
+  }
+}

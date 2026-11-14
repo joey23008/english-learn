@@ -1,0 +1,19 @@
+.list-item {
+  padding: 6px 16px;
+  cursor: pointer;
+  &:focus {
+    background-color: rgba(0, 0, 0, 0.039);
+    outline: none;
+  }
+  &:hover {
+    background-color: #0000000a;
+  }
+  &.disabled {
+    cursor: auto;
+    color: rgba(0, 0, 0, 0.3);
+    &:focus,
+    &:hover {
+      background-color: inherit;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+## フレーズマスターTBLに新規追加、クエスチョンTBLに紐づけ
+POST http://localhost:3000/api/questions_phrases/create HTTP/1.1
+content-type: application/x-www-form-urlencoded
+Cookie: token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2IiwiZXhwIjoxNzMzMDU2NDQzLCJpYXQiOjE3MzI5NzAwNDN9.rnafjFedIjudplSs4c__Y4v36zF6OON9VITTHgsn_SA;
+
+en=this%20is%20a%20pen&jp=これは鉛筆です。&lessonId=223&questionId=1893&priority=1
+
+### フレーズマスターTBLのみ追加
+POST http://localhost:3000/api/questions_phrases/create HTTP/1.1
+content-type: application/x-www-form-urlencoded
+Cookie: token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2IiwiZXhwIjoxNzMzMDU2NDQzLCJpYXQiOjE3MzI5NzAwNDN9.rnafjFedIjudplSs4c__Y4v36zF6OON9VITTHgsn_SA;
+
+en=this%20is%20a%20pen&jp=これは鉛筆です。
+
+### マスターTBL追加無し、クエスチョンTBLに紐づけ
+POST http://localhost:3000/api/questions_phrases/create HTTP/1.1
+content-type: application/x-www-form-urlencoded
+Cookie: token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI2IiwiZXhwIjoxNzMzMDU2NDQzLCJpYXQiOjE3MzI5NzAwNDN9.rnafjFedIjudplSs4c__Y4v36zF6OON9VITTHgsn_SA;
+
+phraseId=79&lessonId=223&questionId=1893&priority=1

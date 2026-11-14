@@ -1,0 +1,1 @@
+ALTER TABLE "questions" ADD COLUMN "user_number" varchar(255) DEFAULT '' NOT NULL;

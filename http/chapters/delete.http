@@ -1,0 +1,5 @@
+DELETE http://localhost:3000/api/chapters/delete HTTP/1.1
+content-type: application/x-www-form-urlencoded
+Cookie: token=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIzIiwiZXhwIjoxNzMzNjIxMzI5LCJpYXQiOjE3MzM1MzQ5Mjl9.tUw30bN-5keEELcDSyrD4BP00V3IcnrRBjPsnAL70AE;
+
+ids=108&ids=109
