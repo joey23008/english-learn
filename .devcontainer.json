@@ -1,0 +1,25 @@
+{
+  "name": "Existing Docker Compose (Extend)",
+  "dockerComposeFile": [
+    "./docker-compose.yaml"
+  ],
+  "service": "app",
+  "workspaceFolder": "/var/www/html",
+  "forwardPorts": [
+    3000
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "humao.rest-client"
+      ],
+      "settings": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "editor.formatOnType": false,
+        "editor.formatOnSave": false,
+      }
+    }
+  }
+}
