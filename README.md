@@ -1,42 +1,109 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# English Learn — Full-Stack Language Learning & CMS Platform
 
-## Getting Started
+**English Learn** is a scalable, full-stack web application designed to streamline English language education through interactive lessons, structured curriculum management, and real-time progress tracking. 
 
-First, run the development server:
+Built with modern TypeScript, React (Next.js), and a relational database architecture, this project demonstrates clean code practices, modular UI design (Atomic Design), and robust RESTful API development.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🎯 Key Features
+
+### 1. Interactive Learning Portal (Frontend)
+* **Structured Curriculum:** Navigate seamlessly through Lessons, Chapters, Questions, Sentences, and Key Phrases.
+* **Dynamic Study Interface:** Interactive components for sentence ordering, phrase matching, and response submission with instant feedback.
+* **Global Progress Tracking:** Real-time state management tracking user completion and learning milestones across sessions.
+
+### 2. Content Management Dashboard (Admin/CMS)
+* **Full CRUD Operations:** Intuitive dashboard interface allowing educators/admins to create, edit, reorder, and delete lessons, chapters, questions, and phrases.
+* **Rich Editing Experience:** Custom modal dialogs, inline editing, and validation pipelines to ensure data integrity.
+
+### 3. Authentication & Security
+* **User Management:** Secure signup, login, and session management workflows with protected routes and API endpoints.
+
+---
+
+## 🛠 Tech Stack & Architecture
+
+This application is engineered with a focus on maintainability, type safety, and containerized deployment:
+
+* **Frontend:** React, Next.js (Pages Router), TypeScript
+* **Styling:** SCSS Modules, Tailwind CSS
+* **Backend & API:** Next.js API Routes (RESTful architecture), Axios
+* **Database & ORM:** PostgreSQL / Relational DB, Drizzle ORM (with version-controlled schema migrations & seeders)
+* **Infrastructure & DevOps:** Docker, Docker Compose, DevContainers
+* **Architecture & Design Patterns:**
+  * **Atomic Design:** UI components strictly organized into `atoms`, `molecules`, and `organisms` for maximum reusability.
+  * **Custom Hooks & Context Providers:** Clean separation of business logic and UI state (`useAuth`, `useLessons`, `useGlobalProgress`, etc.).
+  * **API Testing:** Integrated `.http` test suites for all endpoints to ensure reliable execution and easy debugging.
+
+---
+
+## 📂 Project Structure
+
+```text
+english-learn/
+├── http/                  # REST Client (.http) scripts for API endpoint testing
+├── public/                # Static assets
+├── src/
+│   ├── components/        # UI components structured via Atomic Design
+│   │   ├── atoms/         # Basic building blocks (Buttons, Inputs, Alerts)
+│   │   ├── molecules/     # Composite components (Tables, Dialogs, Accordions)
+│   │   └── organisms/     # Complex feature sections (Dashboard CMS, Lesson Views)
+│   ├── consts/            # Application constants, HTTP status codes, regex
+│   ├── hooks/             # Custom React hooks for data fetching & UI logic
+│   ├── infra/db/          # Drizzle ORM schema, migrations, and database seeders
+│   ├── lib/               # Core utilities (Auth, Axios interceptors, Token handling)
+│   ├── pages/             # Next.js routing (Frontend views, Dashboard, & REST APIs)
+│   ├── providers/         # React Context providers for global state management
+│   ├── styles/            # Global SCSS styles and variables
+│   ├── types/             # TypeScript type definitions
+│   └── utils/             # Helper functions and validation logic
+├── docker-compose.yaml    # Multi-container Docker setup
+├── Dockerfile             # Production container image configuration
+└── drizzle.config.ts      # Drizzle ORM configuration
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 🚀 Getting Started
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Prerequisites
+* Node.js (v18+ recommended)
+* Docker & Docker Compose
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Local Development Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/joey23008/english-learn.git
+   cd english-learn
+   ```
 
-## Learn More
+2. **Configure environment variables:**
+   Copy the example environment file and update the database credentials and secrets as needed.
+   ```bash
+   cp .env.example .env.development
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Start the database and services via Docker:**
+   ```bash
+   docker-compose up -d
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Install dependencies and run migrations:**
+   ```bash
+   npm ci
+   npm run db:push
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👨‍💻 About the Developer
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## TODO
+Developed by a **Full-Stack Engineer with 10+ years of experience** specializing in TypeScript, React, Next.js, Node.js, and cloud-native architectures. This repository showcases my approach to building clean, scalable, and production-ready web applications from database schema design to responsive frontend execution.
